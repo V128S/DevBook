@@ -95,7 +95,7 @@ const observer2 = new IntersectionObserver(
         defaults: { duration: 2.6, delay: 2, stagger: 1, ease: "power2.out" },
       });
 
-      timeline.fromTo(mediaBodies, { x: "200%" }, { x: "0%", stagger: 0.4 });
+      timeline.fromTo(mediaBodies, { x: "-100" }, { x: "0", stagger: 0.4 });
 
       // Trigger the timeline animation
       timeline.play();
